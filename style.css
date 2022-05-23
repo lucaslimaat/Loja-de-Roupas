@@ -52,3 +52,25 @@
     list-style: none;
     text-decoration: none;
 }
+
+.cards {
+    width: 100%;
+    height: 650px;
+    display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+}
+.card1 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+.teste1 {
+    border-radius: 16px; 
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
