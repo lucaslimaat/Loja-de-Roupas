@@ -18,19 +18,18 @@
      height: 85px;
  }
  .logo{
-     color: aqua;
+    color: aqua;
     font-size: 2rem; 
  }
 
 .busca input { 
-   background-repeat: no-repeat;
-   background-position: 95%;
-   border-radius: 10px;
-   border-width: 2px;
-   border-style: solid;
-   border-color: #00bac6;
-    
-   padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00bac6;
+    padding: 10px;
     width: 37rem;
 }
 .container2 {
@@ -53,14 +52,14 @@
     text-decoration: none;
 }
 
-.cards {
+.cardsA {
     width: 100%;
     height: 650px;
     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-     align-items: center;
-     align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 }
 .card1 {
     width: 362px;
@@ -83,4 +82,72 @@
     width: 100%;
     height: 150px;
     background-color: rgb(203, 209, 209);
+}
+
+.cardsB {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+
+.maisVendidos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 30px;
+}
+
+.rodape {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color:#dfdfdf
+
+}
+
+.containerA {
+    display: flex;
+    height: 50vh;
+    width: 33.33%;
+    background-color: #00bac6;
+    align-items: center;
+}
+
+.info1 h1 {
+    display: flex;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+
+}
+
+.info1 p {
+    display: flex;
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerB {
+    display: flex;
+    height: 50vh;
+    width: 33.33%;
+    background-color: #c60000;
+}
+
+.containerC {
+    display: flex;
+    height: 50vh;
+    width: 33.33%;
+    background-color: #07c600;
 }
