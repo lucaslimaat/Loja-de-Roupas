@@ -5,49 +5,56 @@
 
 .menu-principal {
     width: 100%;
-    background-color: #000000;
+    background-color: black;
     height: 130px;
  }
  .container {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
-     align-items: flex-end;
-     align-content: center;
+     align-items: center;
+     align-content:flex-end;
      width: 100%;
      height: 85px;
  }
  .logo{
-    color: aqua;
-    font-size: 2rem; 
+    color: white;
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
  }
-
+.container a {
+    text-decoration: none;
+    color: white;
+}
 .busca input { 
     background-repeat: no-repeat;
     background-position: 95%;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #00bac6;
+    border-color: white;
     padding: 10px;
     width: 37rem;
 }
+
 .container2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-items:flex-end ;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: center ;
+    align-content: flex-start;
     width: 100%;
-    height: 45px;  
+    height: 45px;
+  
+   
 }
 .container2 .menulink {
     display: flex;
+    
 }
 .menulink li a {
     color: white;
-    list-style: none;
     text-decoration: none;
 }
 
@@ -60,11 +67,46 @@
     align-items: center;
     align-content: center;
 }
+.cardsA :hover{
+    border-color: aqua;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 .card1 {
     width: 362px;
     height: 471px;
     background-color: aliceblue;
     border-radius: 16px;
+    text-align: center;
+}
+.card1 h2 {
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+.card2 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    text-align: center;
+}
+.card2 h2 {
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+.card3 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    text-align: center;
+}
+.card3 h2 {
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-style: italic;
 }
 .teste1 {
     border-radius: 16px; 
@@ -85,24 +127,68 @@
 
 .cardsB {
     width: 100%;
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
 
+}
+.cardsB :hover{
+    border-color: aqua;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card4 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card4 h2 {
+    margin-top: 0.5rem;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+.card5 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card5 h2 {
+    margin-top: 0.5rem;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+.card6 {
+    width: 362px;
+    height: 471px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    text-align: center;
+}
+.card6 h2 {
+    margin-top: 0.5rem;
+    font-family: 'Roboto';
+    font-style: italic;
 }
 
 .maisVendidos {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: 130px;
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 30px;
+    font-size: 45px;
+    margin-top: 15px;
 }
 
 .footer {
