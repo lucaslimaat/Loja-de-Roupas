@@ -44,7 +44,6 @@
 }
 .container2 .menulink {
     display: flex;
-      
 }
 .menulink li a {
     color: white;
@@ -106,31 +105,66 @@
     font-size: 30px;
 }
 
-.rodape {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 500px;
+.footer {
+    background-color:#dfdfdf;
+    height: 58vh;
     width: 100%;
-    background-color:#dfdfdf
-
+    font-family: 'Josefin sans';
+    padding-top: 40px;
 }
 
-.containerA {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.info1 {
+    display:flex;
     align-items: center;
-    height: 50vh;
-    width: 33.33%;
-    background-color: #00bac6;
-}
-.containerA h1 {
-    font-family: 'Josefin Sans';
-    
-}
-.containerA p {
-    width: 80%;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    font-family: 'Josefin Sans';
+}
+
+.info1 h1 {
+    line-height: 4rem;
+}
+
+.info1 p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+}
+
+.redes li {
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: black;
+}
+
+.redes a i {
+    font-size: 2rem;
+    transition: color .3s ease;
+}
+
+.redes a:hover i {
+    color: aqua;
+}
+
+.info2 {
+    background: #dfdfdf;
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    text-align: right;
+}
+
+.info2 p {
+    font-size: 14px;
+    word-spacing: 2px;
 }
