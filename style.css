@@ -208,7 +208,9 @@
 }
 
 .info1 h1 {
-    line-height: 4rem;
+    line-height: 5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .info1 p {
