@@ -108,6 +108,8 @@
 
 .rodape {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 500px;
     width: 100%;
     background-color:#dfdfdf
@@ -116,38 +118,19 @@
 
 .containerA {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 50vh;
     width: 33.33%;
     background-color: #00bac6;
-    align-items: center;
 }
-
-.info1 h1 {
-    display: flex;
-    width: 100%;
-    font-family: 'Josefin Sans', sans-serif;
-    justify-content: center;
-
+.containerA h1 {
+    font-family: 'Josefin Sans';
+    
 }
-
-.info1 p {
-    display: flex;
+.containerA p {
     width: 80%;
-    font-family: 'Josefin Sans', sans-serif;
-    justify-content: center;
     text-align: center;
-}
-
-.containerB {
-    display: flex;
-    height: 50vh;
-    width: 33.33%;
-    background-color: #c60000;
-}
-
-.containerC {
-    display: flex;
-    height: 50vh;
-    width: 33.33%;
-    background-color: #07c600;
+    font-family: 'Josefin Sans';
 }
